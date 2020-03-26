@@ -78,38 +78,3 @@ h6 = canvas.create_rectangle(500,700,600,800,fill='green')
 h7 = canvas.create_rectangle(600,700,700,800,fill='green')
 h8 = canvas.create_rectangle(700,700,800,800,fill='green')
 
-'''
-X s o o X X X X 
-O X X o X X X X 
-O o o o o o X X 
-X X o X X o X X 
-X o o X X o X X 
-X X X X X o X X 
-X o o o o o o o 
-X f X X X X X X 
-
-Maze = 
-A2(A3)
-A3(A4)
-A4(b4)
-B4(C4)
-C4(c3, c5)
-C3(c2)
-C2(c1)
-C1(b1)
-B1()
-C5(c6)
-C6(d6)
-D6(e6)
-E6(f6)
-F6(g6)
-G6(g7,g5)
-G7(G8)
-G8()
-G5(g4)
-G4(G3)
-G3(G2)
-G2(G2)
-Start= A2
-Finish = G2
-'''
