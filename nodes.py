@@ -1,4 +1,7 @@
-from graphpath8 import *
+import tkinter as tk
+root = tk.Tk()
+canvas = tk.Canvas(root, width=800, height=800)
+canvas.pack()
 a1 = canvas.create_rectangle(0,0,100,100,fill='blue')
 a2 = canvas.create_rectangle(100,0,200,100,fill='green')
 a3 = canvas.create_rectangle(200,0,300,100,fill='green')
